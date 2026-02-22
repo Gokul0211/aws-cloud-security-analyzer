@@ -35,12 +35,17 @@ Predictive trend forecasting  ✗         ✗              ✓
 ---
 
 ## Installation
+## Installation
+
+Clone the repository:
 
 ```bash
-pip install boto3 networkx
-```
+git clone https://github.com/Gokul0211/aws-cloud-security-analyzer.git
+cd aws-cloud-security-analyzer
 
 Python 3.9+. No other required dependencies. `networkx` is optional — blast radius and pivot map degrade gracefully if absent.
+
+pip install -r requirements.txt
 
 Configure AWS credentials the standard way:
 
